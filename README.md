@@ -2,7 +2,7 @@
 
 ## About
 nanodb is an extremely lightweight document oriented json database. It literally has three methods: 
-| Syntax | Description |
+| Methods |
 | ----------- | ----------- |
 | Header | Title |
 | Paragraph | Text | 
