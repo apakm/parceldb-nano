@@ -1,0 +1,22 @@
+{
+  "name": "parcel-package-manager",
+  "version": "1.0.0",
+  "description": "New package manager for many different languages, such as Python, Node, Rust and more.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apakm/parcel-package-manager.git"
+  },
+  "keywords": [
+    "Package"
+  ],
+  "author": "NCF Group",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/apakm/parcel-package-manager/issues"
+  },
+  "homepage": "https://github.com/apakm/parcel-package-manager#readme"
+}
