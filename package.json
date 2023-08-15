@@ -1,7 +1,7 @@
 {
-  "name": "parcel-package-manager",
+  "name": "@aarnem/nano-db",
   "version": "1.0.0",
-  "description": "New package manager for many different languages, such as Python, Node, Rust and more.",
+  "description": "the most lighweight document oriented database for Node.js",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
