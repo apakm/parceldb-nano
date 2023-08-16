@@ -1,7 +1,7 @@
-# nanodb
+# parceldb-nano
 
 ## About
-nanodb is an extremely lightweight document oriented json database. It literally has three methods: 
+parceldb-nano is an extremely lightweight document oriented json database. It literally has three methods: 
 | Method Name | Description | arguments |
 | ----------- | ----------- | ----------- |
 | init | init will initialize your database by providing encryption keys. | encryption_key initialization_vector |
