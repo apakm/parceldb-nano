@@ -10,3 +10,15 @@ nanodb is an extremely lightweight document oriented json database. It literally
 
 ## Usage
 nanodb is extremely easy to use, just import it into your code, and run on of the methods.
+Here's the recommended way of creating your encryption key and initialization vector.
+```
+{
+    // Encryption key creation
+    const base64key = crypto.randomBytes(32).toString('base64');
+    fs.writeFileSync('.env', `ENCRYPTION_KEY_BASE64=${base64key}\n`);
+
+    // Initialization vector creation
+    const base64iv = crypto.randomBytes(16).toString('base64');
+    fs.writeFileSync('.env', `INITIALIZATION_VECTOR_BASE64=${base64key}\n`);
+}
+``` 
