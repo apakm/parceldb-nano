@@ -7,6 +7,10 @@ parceldb-nano is an extremely lightweight document oriented json database. It li
 | init | init will initialize your database by providing encryption keys. | encryption_key initialization_vector |
 | newDoc | newDoc will create a new encrypted json document | name data |
 | readDoc | readDoc will decrypt the contents of a document and return them | name |
+| find | find will find a value based on the document and field provided | name field |
+| appendData | appendData will add new content to a file by providing the file name and data | name data|
+
+
 
 ## Usage
 nanodb is extremely easy to use, just import it into your code, and run on of the methods.

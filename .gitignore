@@ -2,3 +2,5 @@ node_modules
 cool.js
 .env
 .github
+doc.parcel
+parcelmanager.js
